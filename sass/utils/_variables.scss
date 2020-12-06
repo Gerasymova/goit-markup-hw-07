@@ -1,11 +1,11 @@
-$majorTextColor: #757575;
-$titleTextColor: #212121;
-$accentColor: #2196f3;
-$whiteColor: #ffffff;
-$minorWhiteColor: rgba(255, 255, 255, 0.6);
-$minorBgColor: #2f303a;
-$subBgColor: #f5f4fa;
-$iconMainColor: #afb1b8;
+$primary-text-color: #212121;
+$tittle-text-color: #757575;
+$accent-color: #2196f3;
+$primary-white-color: #ffffff;
+$minor-white-color: rgba(255, 255, 255, 0.6);
+$footer-hero-color: #2f303a;
+$btn-color: #f5f4fa;
+$icon-color: #afb1b8;
 
 html {
   box-sizing: border-box;
@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  color: $majorTextColor;
+  color: $tittle-text-color;
   font-family: "Roboto", sans-serif;
 }
 img {
@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $titleTextColor;
+  color: $primary-text-color;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
@@ -109,7 +109,7 @@ input {
   height: 16px;
 }
 .facebook-icon {
-  width: 10px;
+  width: 20px;
   height: 20px;
 }
 .linkedin-icon {
